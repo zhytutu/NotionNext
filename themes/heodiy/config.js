@@ -20,8 +20,8 @@ const CONFIG = {
   HEO_HERO_TITLE_1: '不知道看什么',
   HEO_HERO_TITLE_2: '随便看看',
   HEO_HERO_TITLE_3: '就点这里',
-  HEO_HERO_TITLE_4: '近期公开行程',
-  HEO_HERO_TITLE_5: '点这里查看',
+  HEO_HERO_TITLE_4: '点这里查看',
+  HEO_HERO_TITLE_5: '近期公开行程',
   HEO_HERO_TITLE_LINK: 'https://fgfsgt.hebaokai.com/schedule',
   // 英雄区遮罩文字
   HEO_HERO_COVER_TITLE: '随便逛逛',
