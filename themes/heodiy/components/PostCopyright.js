@@ -40,10 +40,10 @@ export default function PostCopyright() {
             {path}
           </a>
         </li>
-        <li>
+        {/*/<li>
           <strong className='mr-2'>{locale.COMMON.COPYRIGHT}:</strong>
           {locale.COMMON.COPYRIGHT_NOTICE}
-        </li>
+        </li>*/}
         {siteConfig('HEO_ARTICLE_NOT_BY_AI', false, CONFIG) && (
           <li>
             <NotByAI />
