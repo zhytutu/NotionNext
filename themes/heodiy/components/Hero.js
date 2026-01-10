@@ -131,6 +131,8 @@ function TagsGroupBar() {
           className='w-full h-full object-cover'
           priority={true}
         />
+                {/* 半透明遮罩，确保文字可见 */}
+        <div className='absolute inset-0 bg-black bg-opacity-20'></div>
       </div>
     )
   }
