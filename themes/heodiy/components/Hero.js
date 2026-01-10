@@ -120,6 +120,21 @@ function Banner(props) {
  * 英雄区左上角banner条中斜向滚动的图标
  */
 function TagsGroupBar() {
+    // 如果设置了背景大图，则显示背景图片
+  if (backgroundImage) {
+    return (
+      <div className='absolute inset-0 z-0'>
+        <LazyImage
+          src={backgroundImage}
+          alt='Hero Background'
+          className='w-full h-full object-cover'
+          priority={true}
+        />
+      </div>
+    )
+  }
+
+  // 否则显示滚动图标
   let groupIcons = siteConfig('HEO_GROUP_ICONS', null, CONFIG)
   if (groupIcons) {
     groupIcons = groupIcons.concat(groupIcons)

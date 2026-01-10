@@ -36,6 +36,9 @@ const CONFIG = {
   HEO_HERO_RECOMMEND_POST_SORT_BY_UPDATE_TIME: false, // 推荐文章排序，为`true`时将强制按最后修改时间倒序
   //   HERO_RECOMMEND_COVER: 'https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_1280.jpg', // 英雄区右侧图片
 
+    // 英雄区背景大图，如果设置了将显示背景图片而不是滚动图标
+  HEO_HERO_BACKGROUND_IMAGE: 'https://file.notion.so/f/f/18f82bcf-2c73-4642-a426-20867c94f8cf/9023d7ea-433a-4e39-812c-0373888b11b5/1010.png?table=block&id=2e4b450c-9328-809e-913d-c413a7575164&spaceId=18f82bcf-2c73-4642-a426-20867c94f8cf&expirationTimestamp=1768089600000&signature=EPTaB4u22lGTVpidGYbxuhOVmzHmKK_T90W2loWveiw&downloadName=1010.png', // 例如 'https://example.com/image.jpg'
+
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   HEO_INFOCARD_GREETINGS: [
     '点这里会夸夸高高高高',
