@@ -17,9 +17,9 @@ const CONFIG = {
   HEO_HERO_BODY_REVERSE: false,
 
   // 英雄区(首页顶部大卡)
-  HEO_HERO_TITLE_1: '不知道看什么',
-  HEO_HERO_TITLE_2: '随便看看',
-  HEO_HERO_TITLE_3: '就点这里',
+  HEO_HERO_TITLE_1: '',
+  HEO_HERO_TITLE_2: '',
+  HEO_HERO_TITLE_3: '',
   HEO_HERO_TITLE_4: '点这里查看',
   HEO_HERO_TITLE_5: '近期公开行程',
   HEO_HERO_TITLE_LINK: 'https://fgfsgt.hebaokai.com/schedule',
