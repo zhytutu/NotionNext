@@ -120,6 +120,7 @@ function Banner(props) {
  * 英雄区左上角banner条中斜向滚动的图标
  */
 function TagsGroupBar() {
+  const backgroundImage = siteConfig('HEO_HERO_BACKGROUND_IMAGE', null, CONFIG)
     // 如果设置了背景大图，则显示背景图片
   if (backgroundImage) {
     return (
