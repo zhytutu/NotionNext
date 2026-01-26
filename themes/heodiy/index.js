@@ -31,6 +31,7 @@ import FloatTocButton from './components/FloatTocButton'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import Hero from './components/Hero'
+import Announcement from './components/Announcement'
 import LatestPostsGroup from './components/LatestPostsGroup'
 import { NoticeBar } from './components/NoticeBar'
 import PostAdjacent from './components/PostAdjacent'
@@ -67,6 +68,10 @@ const LayoutBase = props => {
       {router.route === '/' ? (
         <>
           <NoticeBar />
+          {/* 手机端公告模块 */}
+          <div className="block xl:hidden px-5 mb-4">
+            <Announcement post={props?.notice} className="bg-white dark:bg-[#1e1e1e] border dark:border-gray-700 rounded-xl" />
+          </div>
           <Hero {...props} />
         </>
       ) : null}
