@@ -48,7 +48,7 @@ const BlogPostCard = ({ index, post, showSummary, siteInfo }) => {
                 priority={index === 0}
                 src={post?.pageCoverThumbnail}
                 alt={post?.title}
-                className='h-full w-full object-cover group-hover:scale-105 group-hover:brightness-75 transition-all duration-500 ease-in-out' //宽高都调整为自适应,保证封面居中
+                className='h-full w-full object-cover blur-[5px] group-hover:scale-105 group-hover:brightness-75 transition-all duration-500 ease-in-out' //宽高都调整为自适应,保证封面居中
               />
             </div>
           </SmartLink>
