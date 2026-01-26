@@ -70,7 +70,7 @@ const LayoutBase = props => {
           <NoticeBar />
           {/* 手机端公告模块 */}
           <div className="block xl:hidden px-5 mb-4">
-            <Announcement post={props?.notice} className="bg-white dark:bg-[#1e1e1e] border dark:border-gray-700 rounded-xl" />
+            <Announcement post={props?.notice} className="bg-white dark:bg-[#1e1e1e] border dark:border-gray-700 rounded-xl" showGreetings={true} />
           </div>
           <Hero {...props} />
         </>
