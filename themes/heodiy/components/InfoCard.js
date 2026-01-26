@@ -13,6 +13,7 @@ import Card from './Card'
  * @param {*} props
  * @returns
  */
+export { GreetingsWords }
 export function InfoCard(props) {
   const { siteInfo, notice } = props
   const router = useRouter()
