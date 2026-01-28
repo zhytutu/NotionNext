@@ -54,8 +54,8 @@ const CONFIG = {
   // HEO_INFO_CARD_ICON1: 'fas fa-user',
   // HEO_INFO_CARD_URL2: 'https://github.com/tangly1024',
   // HEO_INFO_CARD_ICON2: 'fab fa-github',
-  HEO_INFO_CARD_URL3: 'https://fgfsgt.hebaokai.com/includeinfo',
-  HEO_INFO_CARD_TEXT3: '关于收录范围',
+  HEO_INFO_CARD_URL3: 'https://fgfsgt.hebaokai.com/about',
+  HEO_INFO_CARD_TEXT3: '关于本站',
 
   // 用户技能图标
   HEO_GROUP_ICONS: [
