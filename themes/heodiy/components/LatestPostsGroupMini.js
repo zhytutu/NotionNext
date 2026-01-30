@@ -39,10 +39,10 @@ export default function LatestPostsGroupMini({ latestPosts, siteInfo }) {
             href={post?.href}
             passHref
             className={'my-3 flex'}>
-            <div className='w-20 h-14 overflow-hidden relative'>
+            <div className='w-20 h-14 overflow-hidden relative rounded-lg'>
               <LazyImage
                 src={`${headerImage}`}
-                className='object-cover w-full h-full rounded-lg filter blur-[3px] backface-visibility-hidden transform-gpu'
+                className='object-cover w-full h-full filter blur-[3px] backface-visibility-hidden transform-gpu'
               />
             </div>
             <div
