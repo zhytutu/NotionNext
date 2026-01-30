@@ -261,7 +261,7 @@ function TopGroup(props) {
               <div className='cursor-pointer h-[164px] group relative flex flex-col w-52 xl:w-full overflow-hidden shadow bg-white dark:bg-black dark:text-white rounded-xl'>
                 <LazyImage
                   priority={index === 0}
-                  className='h-24 object-cover'
+                  className='h-24 object-cover filter blur-[4px]'
                   alt={p?.title}
                   src={p?.pageCoverThumbnail || siteInfo?.pageCover}
                 />
