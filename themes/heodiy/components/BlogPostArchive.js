@@ -43,10 +43,10 @@ const BlogPostArchive = ({ posts = [], archiveTitle, siteInfo }) => {
                 }>
                 {/* 图片封面 */}
                 {showPageCover && (
-                  <div>
+                  <div className='rounded-xl overflow-hidden'>
                     <SmartLink href={post?.href} passHref legacyBehavior>
                       <LazyImage
-                        className={'rounded-xl bg-center bg-cover w-40 h-24 filter blur-[5px]'}
+                        className={'bg-center bg-cover w-40 h-24 filter blur-[5px]'}
                         src={post?.pageCoverThumbnail}
                       />
                     </SmartLink>
