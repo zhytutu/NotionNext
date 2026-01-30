@@ -46,7 +46,7 @@ const BlogPostArchive = ({ posts = [], archiveTitle, siteInfo }) => {
                   <div>
                     <SmartLink href={post?.href} passHref legacyBehavior>
                       <LazyImage
-                        className=className={'rounded-xl bg-center bg-cover w-40 h-24 filter blur-[6px] backface-visibility-hidden transform-gpu'}
+                        className=className={'rounded-xl bg-center bg-cover w-40 h-24 filter blur-[6px]'}
                         src={post?.pageCoverThumbnail}
                       />
                     </SmartLink>
