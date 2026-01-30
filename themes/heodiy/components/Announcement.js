@@ -6,9 +6,9 @@ const NotionPage = dynamic(() => import('@/components/NotionPage'))
 const Announcement = ({ post, className, showGreetings = false }) => {
   if (post?.blockMap) {
     return (
-      <div>
+      <div className={className}>
         {post && (
-          <div id='announcement-content' className={`${className || 'bg-[#4f65f0] dark:bg-[#1e1e1e]'} rounded-xl p-3 overflow-hidden`}>
+          <div id='announcement-content' className='bg-[#4f65f0] dark:bg-[#1e1e1e] rounded-xl'>
             {showGreetings && <GreetingsWords />}
             <NotionPage post={post} />
           </div>
