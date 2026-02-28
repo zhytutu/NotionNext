@@ -51,8 +51,27 @@ module.exports = {
           7: '#D1D5DB',
           8: '#E5E7EB'
         },
-        primary: '#3758F9',
-        'blue-dark': '#1B44C8',
+        primary: {
+          DEFAULT: '#60A5FA',
+          dark: '#3B82F6'
+        },
+        'blue-dark': {
+          DEFAULT: '#3B82F6',
+          dark: '#2563EB'
+        },
+        // 覆盖默认蓝色为暖色调
+        blue: {
+          50: '#EFF6FF',
+          100: '#DBEAFE',
+          200: '#BFDBFE',
+          300: '#93C5FD',
+          400: '#60A5FA',
+          500: '#3B82F6',
+          600: '#2563EB',
+          700: '#1D4ED8',
+          800: '#1E40AF',
+          900: '#1E3A8A'
+        },
         secondary: '#13C296',
         'body-color': '#637381',
         'body-secondary': '#8899A8',
