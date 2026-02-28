@@ -8,7 +8,7 @@ const Announcement = ({ post, className, showGreetings = false }) => {
     return (
       <div className={className}>
         {post && (
-          <div id='announcement-content' className='bg-[#4f65f0] dark:bg-[#1e1e1e] rounded-xl'>
+          <div id='announcement-content' className='bg-[#3B82F6] dark:bg-[#1e1e1e] rounded-xl'>
             {showGreetings && <GreetingsWords />}
             <NotionPage post={post} />
           </div>
